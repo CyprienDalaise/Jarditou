@@ -1,0 +1,167 @@
+/*MOBILE*/
+@media only screen and (max-width: 768px) 
+{
+    aside {
+         display: none;
+    }
+    
+    .slogan-logo {
+        display: flex;
+   }
+
+   .logo {
+    
+        max-width: 30%; 
+        height: auto
+   }
+
+   .slogan {
+        font-size: 25pt;
+        text-align: center;
+        align-self: center;
+        flex: 1;
+   } 
+
+   .black {
+        background-color: black;
+        padding: 20px; 
+   }
+
+   #imglame {
+        max-width: 130%; 
+        height: auto; 
+        width: 100% ;
+   }
+
+    #sectionflex {
+        display : flex;
+        flex-direction: column;
+        order: 0;
+   }
+
+   aside {
+        background-color: rgb(211, 206, 206);
+        height: 360px; 
+        width: 200px;
+        float: right;
+   }
+
+   li {
+       display: block; 
+   }
+
+   hr {
+        border: 0.5px solid rgb(211, 206, 206);
+   }
+
+   a {
+       font-size: 10pt; 
+       color: white;
+   }
+
+   tr, td, th {
+       padding: 10px 10px;
+   }
+
+   table, tr, td, th { 
+        border: 1px solid rgb(211, 206, 206);
+        border-collapse: collapse;
+        vertical-align: top;
+   }
+
+   table {
+        width: 95%;
+   }
+
+   .imgtableau {
+        border: 1px solid rgb(211, 206, 206);
+        margin: 0.5em;
+   }
+
+   .marque {
+        color: blue;
+   }
+    
+}
+
+/*LAPTOP*/
+@media only screen and (min-width: 768px) 
+{
+
+    .slogan-logo {
+         display: flex;
+    }
+
+    .logo {
+     
+         max-width: 20%; 
+         height: auto
+    }
+
+    .slogan {
+         font-size: 25pt;
+         text-align: center;
+         align-self: center;
+         flex: 1;
+    } 
+
+    .black {
+         background-color: black;
+         padding: 20px; 
+    }
+
+    #imglame {
+         max-width: 130%; 
+         height: auto; 
+         width: 100% ;
+    }
+
+     #sectionflex {
+         display : flex;
+         flex-direction: column;
+         order: 0;
+    }
+
+    aside {
+         background-color: rgb(211, 206, 206);
+         height: 360px; 
+         width: 200px;
+         float: right;
+    }
+
+    li {
+        display: inline; 
+    }
+
+    hr {
+         border: 0.5px solid rgb(211, 206, 206);
+    }
+
+    a {
+        font-size: 10pt; 
+        color: white;
+    }
+
+    tr, td, th {
+        padding: 10px 10px;
+    }
+
+    table, tr, td, th { 
+         border: 1px solid rgb(211, 206, 206);
+         border-collapse: collapse;
+         vertical-align: top;
+    }
+
+    table {
+         width: 95%;
+    }
+
+    .imgtableau {
+         border: 1px solid rgb(211, 206, 206);
+         margin: 0.5em;
+    }
+
+    .marque {
+         color: blue;
+    }
+}

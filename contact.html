@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>
+        Jarditou DES PRIX FOUS
+    </title>
+</head>
+
+<body>
+    <header>
+        <img style="width: 250px;" src="asset/img/jarditou_logo.jpg" srcset="" alt="brouette jardinage" title="jarditou">
+        <span>Tout le jardin<span></div>
+            <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html" title="accueil">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tableau.html" title="tableau">Tableau</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" title="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+    <img src="asset/img/promotion.jpg" width=100% height=auto alt="promo lames" title="Lames de terrasse">
+    </header>
+<hr>
+<form action="http://bienvu.net/script.php" method="GET">
+        <fieldset class="container">
+            <legend class="text-center">Coordonnées</legend><hr>
+            <div class="form-group ml-4 mr-2">
+                <label for="nom"> Votre nom*: </label>
+                <input type="text" class="form-control" name="nom" id="nom" placeholder="Entrez votre Nom">
+            </div>
+            <div class="form-group ml-4 mr-2">
+                <label for="prenom"> Votre prénom*: </label>
+                <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Entrez votre Prènom">
+            </div>
+            <div class="form-group ml-4 mr-2">
+                <label for="naissance"> Date de naissance*: </label>
+                <input type="date" class="form-control" name="ddn" id="naissance" required title="Entrez votre date de naisance">
+            </div>
+            <div class="ml-4 mr-2">
+                Sexe*: <br><input type="radio" name="sexe" value="feminin" id="sexe" required> Féminin
+                    <input type="radio" name="sexe" value="masculin" id="sexe"> Masculin
+            </div>
+            <div class="form-group ml-4 mr-2">
+                <label for="adresse"> Adresse: </label>
+                <input type="text" class="form-control" name="adresse" id="adresse" placeholder="Entrez votre adresse">
+            </div>
+            <div class="form-inline ml-4 mr-2">
+                <input type="text" class="mr-2" name="code postal" id="CP" placeholder="Entrez votre code postal">
+                <input type="text" name="ville" id="ville" placeholder="Entrez votre ville">
+            </div>
+            <div class="form-group ml-4 mr-2">
+                <label for="email"> Email*: </label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Votre Mail">
+            </div>
+        </fieldset>
+<hr>
+        <fieldset class="container">
+            <legend class="text-center">Votre demande</legend><hr>
+            <div class="form-group ml-4 mr-2">
+                Sujet*:<select name="demandes" class="form-control">
+                    <option>Mes commandes</option>
+                    <option>Question sur un produit</option>
+                    <option>Réclamation</option>
+                    <option>Autres</option>
+                    </select>
+            </div>
+            <div class="ml-4 mr-2">
+                Votre question*:
+            </div>
+            <textarea class="form-control ml-4 mr-2" name="commentaire" rows="8" cols="80" required title="Votre question ici" required>
+            </textarea>
+        </fieldset>
+    <div class="ml-4 mr-2">
+        <input type="checkbox" name="formulaire" value="accepte" required> <u>J'accepte le traitement informatique de ce formulaire.</u>
+    </div>
+    <div class="text-center">
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </div>
+</form>
+<hr>
+<footer>
+        <nav class="menu">
+        <ul class="black">
+            <ul>
+                <li><a href="mentionslegales.html" title="mentionslegales">Mentions légales</a></li>
+                <li><a href="horaires.html" title="horaires">Horaires</a></li>
+                <li><a href="plandusite.html" title="plan du site">Plan du site</a></li>
+            </ul>
+        </nav>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
